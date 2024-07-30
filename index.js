@@ -6,10 +6,10 @@ const app = express();
 const port = 3000;
 
 const db = new pg.Client({
-  user: "postgres",
-  host: "localhost",
-  database: "world",// you have to set up a local DB 
-  password: "Benzot07!", //runs on my local pgAdmin DB
+  user: "**",
+  host: "**",
+  database: "**",// you have to set up a local DB 
+  password: "**", //runs on my local pgAdmin DB
   port: 5432,
 });
 db.connect();
